@@ -13,3 +13,104 @@
  *= require_tree .
  *= require_self
  */
+.home {
+  color: white;
+  /*text-shadow:
+  3px 3px 0 #000,
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;*/
+}
+
+.home th{
+font-size: 25px;
+color: #C8C9D1;
+text-shadow:
+3px 3px 0 #000,
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+.cover{
+  background-color: rgba(112, 94, 90, 0.5);
+  padding-top: 10px;
+}
+
+h1 {
+  color: white;
+  flex-grow: 100;
+  margin: 0 auto;
+  margin-top: 15px;
+  text-shadow:
+  3px 3px 0 #000,
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+  /*margin-left: 300px;*/
+}
+
+.wrap{
+  padding: 10px;
+  background-color: rgba(112, 94, 90, 0.5);
+  border-radius: 10px;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 100px;
+}
+table td{
+  padding: 15px;
+  font-size: 20px;
+}
+
+body {
+  background-image: url("better.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+nav{
+  padding-bottom: 10px;
+  margin-left: 450px;
+}
+a {
+  border: 1px outset;
+  padding: 2px;
+  text-decoration: none;
+  background-color: rgba(154, 90, 98, 0.7);
+  color: #A9B4B6;
+}
+
+.form{
+  background-color: rgba(112, 94, 90, 0.5);
+  width: 170px;
+  padding-left: 20px;
+  color: white;
+  font-size: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  flex-grow: 5;
+  margin: 0 auto;
+}
+
+.back{
+  padding-left: 10px;
+  flex-grow: 21;
+  padding-top: 10px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.show{
+  background-color: rgba(112, 94, 90, 0.5);
+  margin: 0 auto;
+  padding-left: 10px;
+  margin-top: 100px;
+  font-size: 30px;
+  color: white;
+}

@@ -1,9 +1,15 @@
+<div class="wrap">
 <h1>List of all Books</h1>
-<%= link_to 'New Book', books_new_path %>
-<table>
+<nav>
+  <%= link_to 'New Book', new_book_path %>
+  <%= link_to 'Back', books_path %>
+</nav>
+<table class="home">
   <tr>
     <th>Title</th>
-    <th>Text</th>
+    <th>Author</th>
+    <th>Description</th>
+    <th>URL</th>
   </tr>
 
   <% @book.each do |book| %>
@@ -16,5 +22,7 @@
       <td><%= link_to 'Edit', edit_book_path(book) %></td>
       <td><%= link_to 'Delete', book_path(book), method: :delete, data: {confirm: 'Are you sure?'}  %></td>
     </tr>
+    </div>
   <% end %>
+
 </table>

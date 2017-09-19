@@ -1,4 +1,5 @@
-<p>
+<div class="show">
+  <p>
   <strong>Title:</strong>
   <%= @book.title %>
 </p>
@@ -17,6 +18,6 @@
   <strong>URL:</strong>
   <%= @book.url %>
 </p>
-
-<%= link_to 'Back', books_path %>
-<td><%= link_to 'Edit', edit_book_path(book) %></td>
+</div>
+<span class="back"><%=link_to 'Back', books_path %>
+<%= link_to 'Edit', edit_book_path(@book) %></span>
