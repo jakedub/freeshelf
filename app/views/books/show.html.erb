@@ -21,7 +21,8 @@
 
 <p>
   <strong>Image:</strong>
-  <%= @book.image %>
+  <%= image_tag(@book.image.url, alt: 'Image') if @book.image? %>
+
 </p>
 </div>
 <span class="back"><%=link_to 'Back', books_path %>

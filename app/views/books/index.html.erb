@@ -1,5 +1,5 @@
 <div class="wrap">
-<h1>List of all Books</h1>
+<h1 id="home">List of all Books</h1>
 <nav>
   <%= link_to 'New Book', new_book_path %>
   <%= link_to 'Back', books_path %>
@@ -21,7 +21,8 @@
       <td><%= book.author %></td>
       <td><%= book.description %></td>
       <td><%= book.url %></td>
-      <td><%= book.image %></td>
+      <td><%= book.image_cache %></td>
+
       <td><%= link_to 'Show', book_path(book) %></td>
       <td><%= link_to 'Edit', edit_book_path(book) %></td>
       <td><%= link_to 'Delete', book_path(book), method: :delete, data: {confirm: 'Are you sure?'}  %></td>

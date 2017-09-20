@@ -19,8 +19,9 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 gem 'devise'
-gem 'carrierwave', '~> 0.10.0'
+gem 'carrierwave', '~> 1.0'
 gem 'mini_magick', '~> 4.3'
+gem 'file_validators'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
