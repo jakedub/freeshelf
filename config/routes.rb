@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  devise_for :users, controllers: {
+        sessions: 'users/sessions'
+      }
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   # get '/books' => 'books#index'
   # get '/books/:id' => 'books#show'
@@ -7,5 +10,6 @@ Rails.application.routes.draw do
   # get '/books/:id/edit' => 'books#edit'
   # put '/books/:id' => 'books#update'
   # delete '/books/:id' => 'books#destroy'
+  get '/' => 'home#index'
   resources :books
 end

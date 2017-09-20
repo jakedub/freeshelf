@@ -17,7 +17,7 @@ On the second day, your application should:
 Allow users to register and login
 Prevent users from creating, editing, or deleting book entries if they are not logged in
 
-
+1. Used devise 
 
 
 On the third day, your application should:
