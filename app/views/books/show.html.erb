@@ -18,6 +18,11 @@
   <strong>URL:</strong>
   <%= @book.url %>
 </p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @book.image %>
+</p>
 </div>
 <span class="back"><%=link_to 'Back', books_path %>
 <%= link_to 'Edit', edit_book_path(@book) %></span>

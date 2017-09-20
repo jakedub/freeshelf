@@ -10,6 +10,6 @@ Rails.application.routes.draw do
   # get '/books/:id/edit' => 'books#edit'
   # put '/books/:id' => 'books#update'
   # delete '/books/:id' => 'books#destroy'
-  get '/' => 'home#index'
+  get '/' => 'books#index'
   resources :books
 end
